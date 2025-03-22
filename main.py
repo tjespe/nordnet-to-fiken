@@ -21,9 +21,9 @@ def map_accounts(row):
     if t == "INNSKUDD":
         return "1920", "1925"
     elif t in ("KJØPT", "KJØP, BYTTE AV FOND"):
-        return "1350", "1920"
+        return "1811", "1920"
     elif t == "SALG, BYTTE AV FOND":
-        return "1920", "1350"
+        return "1920", "1811"
     elif t == "PLATTFORMAVGIFT":
         return "7770", "1920"
     elif t == "TILBAKEBET. FOND AVG":
