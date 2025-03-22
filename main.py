@@ -19,7 +19,7 @@ display(df_full.head())
 def map_accounts(row):
     t = row["Transaksjonstype"]
     if t == "INNSKUDD":
-        return "1920", ""
+        return "1920", "1925"
     elif t in ("KJØPT", "KJØP, BYTTE AV FOND"):
         return "1350", "1920"
     elif t == "SALG, BYTTE AV FOND":
